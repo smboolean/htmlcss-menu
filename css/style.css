@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  height: 82px;
+  background-color: lightgrey;
+}
+
+.logo {
+  height: 30px;
+  vertical-align: middle;
+}
+
+.menu {
+  list-style: none;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 5px;
+}
+.menu li:hover {
+  background-color: #ddd;
+  border-bottom: 2px solid lightgreen;
+}
+.menu li.active {
+  border-bottom: 2px solid lightgreen;
+}
+.menu a {
+  line-height: 80px;
+  color: #1b3c59;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 82px;
+  height: 2500px;
+}
